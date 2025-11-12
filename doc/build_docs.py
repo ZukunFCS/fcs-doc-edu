@@ -23,9 +23,9 @@ def build_doc(version, language, tag=None, ):
 			subprocess.run(f"git checkout master -- {filename}", shell=True)
 	os.environ['SPHINXOPTS'] = "-D language='{}'".format(language)
 	subprocess.run("make html", shell=True)
-
-	move('_build/html', f'pages/{version}/{language}')
 	subprocess.run("cp -r images _build/html/images", shell=True)
+	move('_build/html', f'pages/{version}/{language}')
+	
 
 
 
