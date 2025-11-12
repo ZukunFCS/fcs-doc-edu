@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-28 16:14+0900\n"
+"PO-Revision-Date: 2024-09-26 22:06+0900\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../097_用語集.md:1
+msgid "用語集"
+msgstr "Glossary of terms"
+
+#: ../../097_用語集.md:3
+msgid "LM（ランドマーク）"
+msgstr "Landmark"
+
+#: ../../097_用語集.md:4
+msgid "顔の各点の位置情報"
+msgstr "Location information for each point on a face (Facial landmark)"
+
+#: ../../097_用語集.md:6
+msgid "Pick up（ピックアップ）"
+msgstr "Pickup"
+
+#: ../../097_用語集.md:7
+msgid "表情出力の計算に含めたいフレームを抽出すること、またはピックアップしたデータのこと"
+msgstr ""
+
+#: ../../097_用語集.md:9
+msgid "Profile（プロファイル）"
+msgstr "Profile"
+
+#: ../../097_用語集.md:10
+msgid "動画からピックアップしたフレーム情報とリターゲットした表情の組み合わせのこと"
+msgstr ""
+"Registering the expressions of the selected frames, or the retargeted "
+"data."
+
+#: ../../097_用語集.md:12
+msgid "Region（リージョン）"
+msgstr "Region"
+
+#: ../../097_用語集.md:13
+msgid "コントローラのアトリビュートがupper / lower / eye / eyelidのどれに該当するかの情報"
+msgstr ""
+"Information about which attribute of the controller corresponds to upper,"
+" lower, eye, or eyelid."
+
+#: ../../097_用語集.md:14
+msgid "upper：眉周りの動き"
+msgstr "upper: movement around the forehead and eyebrows "
+
+#: ../../097_用語集.md:15
+msgid "lower：鼻、頬、口周りの動き"
+msgstr "lower: movement around the nose, cheeks, and mouth"
+
+#: ../../097_用語集.md:16
+msgid "eye：UIではgaze表記、目線の動き"
+msgstr "eye: Labeled as “gaze” in the UI, representing eye movement."
+
+#: ../../097_用語集.md:17
+msgid "eyelid：まぶたの動き"
+msgstr "movement of eyelids"
+
+#: ../../097_用語集.md:19
+msgid "Retarget（リターゲット）"
+msgstr "Retarget"
+
+#: ../../097_用語集.md:20
+msgid "ピックアップしたフレームに対応する表情を登録すること、またはリターゲットしたデータのこと"
+msgstr ""
+"Registering the expressions of the selected frames, or the retargeted "
+"data."
+
+#: ../../097_用語集.md:22
+msgid "Session(セッション)"
+msgstr "Session"
+
+#: ../../097_用語集.md:23
+msgid "アクター情報、キャラクター情報、Mayaシーン情報とその解析データを紐づけたファイルのこと"
+msgstr ""
+
+#: ../../097_用語集.md:26
+msgid "Window(ウィンドウ)"
+msgstr "Window"
+
+#: ../../097_用語集.md:27
+msgid "各機能ごとにまとめられた枠のこと"
+msgstr ""
+
+#: ../../097_用語集.md:29
+msgid "一部範囲では右クリックでメニューが表示される"
+msgstr ""
+
+#: ../../097_用語集.md:31
+msgid "ウィンドウのレイアウトは変更・保存することが可能"
+msgstr ""
+
+#: ../../097_用語集.md:32
+msgid "Videos(ビデオウィンドウ)"
+msgstr "Videos"
+
+#: ../../097_用語集.md:37
+msgid "Processor(プロセッサーウィンドウ)"
+msgstr "Processor"
+
+#: ../../097_用語集.md:42
+msgid "Controllers(コントローラーウィンドウ)"
+msgstr "Controllers"
+
+#: ../../097_用語集.md:47
+msgid "Gallery(ギャラリーウィンドウ)"
+msgstr "Gallery"
+
+#: ../../097_用語集.md:52
+msgid "Editor(エディターウィンドウ)"
+msgstr "Editor"
+
+#: ../../097_用語集.md:57
+msgid "Solver(ソルバーウィンドウ)"
+msgstr "Solver"
+
+#: ../../097_用語集.md:62
+msgid "Log(ログウィンドウ)"
+msgstr "Log"
+
+#: ../../097_用語集.md:67
+msgid "TimeLine(タイムラインウィンドウ)"
+msgstr "TimeLine"
+
+#~ msgid "Profiles"
+#~ msgstr "Profiles"
+

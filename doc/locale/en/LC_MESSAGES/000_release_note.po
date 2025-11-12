@@ -1,0 +1,1448 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-11-04 07:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../000_release_note.md:1
+msgid "Release Note"
+msgstr ""
+
+#: ../../000_release_note.md:2
+msgid "[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)"
+msgstr ""
+
+#: ../../000_release_note.md:4
+msgid "FCS 25.10.02"
+msgstr ""
+
+#: ../../000_release_note.md:5
+msgid "Date: 2025/10/06"
+msgstr ""
+
+#: ../../000_release_note.md:6
+msgid "Version: 25.10.02"
+msgstr ""
+
+#: ../../000_release_note.md:7 ../../000_release_note.md:16
+msgid "Stage: Stable"
+msgstr ""
+
+#: ../../000_release_note.md:9
+msgid "Fix"
+msgstr ""
+
+#: ../../000_release_note.md:10
+msgid "Fixed segmented animation output not being processed properly"
+msgstr ""
+
+#: ../../000_release_note.md:11
+msgid "Fixed release note not being wrapped properly to the window"
+msgstr ""
+
+#: ../../000_release_note.md:13
+msgid "FCS 25.10.01"
+msgstr ""
+
+#: ../../000_release_note.md:14
+msgid "Date: 2025/09/30"
+msgstr ""
+
+#: ../../000_release_note.md:15
+msgid "Version: 25.10.01"
+msgstr ""
+
+#: ../../000_release_note.md:18
+msgid "25.10 mostly focus on accuracy update."
+msgstr ""
+
+#: ../../000_release_note.md:20
+msgid "New Features"
+msgstr ""
+
+#: ../../000_release_note.md:21
+msgid ""
+"This version introduces two big main improvement, improved tracking and "
+"improved retargeting."
+msgstr ""
+
+#: ../../000_release_note.md:23
+msgid "Tracking Accuracy"
+msgstr ""
+
+#: ../../000_release_note.md:24
+msgid ""
+"We introduce two new pipelines, RP+ and Robust+. They use a new facial "
+"tracking algorithm developed by Zukun. They are essentially upgrades over"
+" our existing pipelines, they are specifically designed to improve "
+"animation accuracy for studio with low profiles count (less than 50). "
+"Results generated using these pipelines cannot be visualized (LM plots "
+"are disabled)."
+msgstr ""
+
+#: ../../000_release_note.md:26
+msgid ""
+"We will include more comparison in our [Advanced "
+"Manual](https://zukunfcs.github.io/fcs-doc-"
+"advanced/latest/en/index.html)."
+msgstr ""
+
+#: ../../000_release_note.md:28
+msgid ""
+"Facial tracking results generated with the new pipelines can be edited in"
+" a later version of FCS."
+msgstr ""
+
+#: ../../000_release_note.md:30
+msgid "Retarget Accuracy"
+msgstr ""
+
+#: ../../000_release_note.md:31
+msgid ""
+"We also fixed a few longstanding bugs in our prediction pipeline. As a "
+"result, it should generate much more stable animation even for older "
+"pipelines (Rich, RP, Robust)."
+msgstr ""
+
+#: ../../000_release_note.md:33
+msgid ""
+"In addition, we also create a new ****experimental**** feature to boost "
+"accuracy for retargeting, by allowing the user to create more fine-grain "
+"control over the controller beyond the four regions. This is for advanced"
+" users who would want to create very accurate, low-noise result. This "
+"will be completely optional. Please see the [Advanced manual](https"
+"://ryota-nakajima-toei.github.io/fcs-doc-"
+"advanced/25.10/en/002_processing.html) here for instructions on how to "
+"use it."
+msgstr ""
+
+#: ../../000_release_note.md:35
+msgid "Misc"
+msgstr ""
+
+#: ../../000_release_note.md:37
+msgid ""
+"Remove Hover text for controller tab, this has been known to cause "
+"crashes in some systems and do not provide too much helpful information."
+msgstr ""
+
+#: ../../000_release_note.md:38
+msgid "Optimize the application launch time"
+msgstr ""
+
+#: ../../000_release_note.md:39
+msgid "Optimize controller table saving"
+msgstr ""
+
+#~ msgid ""
+#~ "** Once opened in this version, "
+#~ "your FCS session will not be abled"
+#~ " to downgraded to a previous version"
+#~ " of FCS, including FCS 24.10.05. **"
+#~ " We strongly recommend you to backup"
+#~ " your files before using the update."
+#~ msgstr ""
+
+#~ msgid "FCS 24.10.09"
+#~ msgstr ""
+
+#~ msgid "Date: 2024/11/05"
+#~ msgstr ""
+
+#~ msgid "Version: 24.10.09"
+#~ msgstr ""
+
+#~ msgid "Overview"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed profile image being saved at "
+#~ "a different resolution in some cases,"
+#~ " introduced at 24.10.06.    This affects"
+#~ " the predicted animation's result. If "
+#~ "you are using version 24.10.06 - "
+#~ "24.10.08, we recommend upgrading immediately."
+#~ " An automatic update will be applied"
+#~ " to fix the resolution of the "
+#~ "image."
+#~ msgstr ""
+
+#~ msgid "FCS 24.10.08"
+#~ msgstr ""
+
+#~ msgid "Date: 2024/10/30"
+#~ msgstr ""
+
+#~ msgid "Version: 24.10.08"
+#~ msgstr ""
+
+#~ msgid "Fixed Maya imagePlane is setup incorrectly"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Changed default imagePlane and camera "
+#~ "name to imagePlane and fcs_cam "
+#~ "respectively"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed an error which prevent switching"
+#~ " to the newly created Actor and "
+#~ "character when creating new session"
+#~ msgstr ""
+
+#~ msgid "Fixed prediction result not being sent to Maya even when To maya is ON."
+#~ msgstr ""
+
+#~ msgid "FCS 24.10.07"
+#~ msgstr ""
+
+#~ msgid "Date: 2024/10/29"
+#~ msgstr ""
+
+#~ msgid "Version: 24.10.07"
+#~ msgstr ""
+
+#~ msgid "Fixed program crashes when trying to display LM"
+#~ msgstr ""
+
+#~ msgid "Fixed session info profile count shows incorrect value"
+#~ msgstr ""
+
+#~ msgid "Fixed an error where the Maya image plane is named incorrectly"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added a feature to clear all "
+#~ "caches when opening session in a "
+#~ "different version"
+#~ msgstr ""
+
+#~ msgid "FCS 24.10.06"
+#~ msgstr ""
+
+#~ msgid "Date: 2024/10/16"
+#~ msgstr ""
+
+#~ msgid "Version: 24.10.06"
+#~ msgstr ""
+
+#~ msgid "!Cannot be downgraded!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Once opened in this version, your "
+#~ "FCS session will not be abled to"
+#~ " downgraded to a previous version of"
+#~ " FCS, including FCS 24.10.05. We "
+#~ "strongly recommend you to backup your"
+#~ " files before using the update.**"
+#~ msgstr ""
+
+#~ msgid "Fixed animation timeline off by 1 frame"
+#~ msgstr ""
+
+#~ msgid "Optimized launch spped"
+#~ msgstr ""
+
+#~ msgid "Improved logging"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where the first frame"
+#~ " of a video is used twice "
+#~ "(i.e., the 99th frame is presented "
+#~ "as the 100th frame). All previously "
+#~ "created profiles are all off by "
+#~ "one frame, which will be fixed "
+#~ "once imported using the new version "
+#~ "of FCS. However, it also means "
+#~ "that it will be incorrect if the"
+#~ " fixed profile is imported back to"
+#~ " a previous version of FCS. "
+#~ "Therefore, once imported to the new "
+#~ "version, it is not possible to "
+#~ "downgrade to use the previous version."
+#~ msgstr ""
+
+#~ msgid "FCS 24.10.05"
+#~ msgstr ""
+
+#~ msgid "Date: 2024/10/11"
+#~ msgstr ""
+
+#~ msgid "Version: 24.10.05"
+#~ msgstr ""
+
+#~ msgid "Fixed a bug where video is not cached when opened for viewing"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where the auto profile"
+#~ " assigns the wrong name to the "
+#~ "profile in ROM mode"
+#~ msgstr ""
+
+#~ msgid "Added a new feature for exported solver for real-time use"
+#~ msgstr ""
+
+#~ msgid "Added a warning sign for invalid controller info."
+#~ msgstr ""
+
+#~ msgid "FCS 24.10.04"
+#~ msgstr ""
+
+#~ msgid "Date: 2024/10/07"
+#~ msgstr ""
+
+#~ msgid "Version: 24.10.04"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where landmark frame "
+#~ "output crashes the application under "
+#~ "specific circumstances."
+#~ msgstr ""
+
+#~ msgid "FCS 24.10.03"
+#~ msgstr ""
+
+#~ msgid "Date: 2024/09/25"
+#~ msgstr ""
+
+#~ msgid "Version: 24.10.03"
+#~ msgstr ""
+
+#~ msgid "Fixed gallery issues"
+#~ msgstr ""
+
+#~ msgid "Fixed installer issues"
+#~ msgstr ""
+
+#~ msgid "Misc."
+#~ msgstr ""
+
+#~ msgid "Detail"
+#~ msgstr ""
+
+#~ msgid "Fixed an issue where reset on FCS UI doesn't get send to Maya"
+#~ msgstr ""
+
+#~ msgid "Fixed a bug where disabled regions' values are still sent to Maya"
+#~ msgstr ""
+
+#~ msgid "Changed the default install path to C drive"
+#~ msgstr ""
+
+#~ msgid "Updated the installer icon"
+#~ msgstr ""
+
+#~ msgid "Added Japanese support"
+#~ msgstr ""
+
+#~ msgid "Misc"
+#~ msgstr ""
+
+#~ msgid "Fixed a bug where controller rename triggers app crashes"
+#~ msgstr ""
+
+#~ msgid "Fixed a bug where smoothing is not applied （Fixed in 24.10.01）"
+#~ msgstr ""
+
+#~ msgid "Fixed Prioritize Profile"
+#~ msgstr ""
+
+#~ msgid "FCS 24.10.02"
+#~ msgstr ""
+
+#~ msgid "Date: 2024/09/09"
+#~ msgstr ""
+
+#~ msgid "Version: 24.10.02"
+#~ msgstr ""
+
+#~ msgid "Stage: Beta"
+#~ msgstr ""
+
+#~ msgid "Improved filtering feature in Gallery, allowing batch edit/delete"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where editor landmark "
+#~ "preview is turned off when opening "
+#~ "a new profile."
+#~ msgstr ""
+
+#~ msgid "Fixed a bug where the cursor position does not exactly move to"
+#~ msgstr ""
+
+#~ msgid "Optimized gallery render speed"
+#~ msgstr ""
+
+#~ msgid "Added Prioritize Profile"
+#~ msgstr ""
+
+#~ msgid "Added a feature to batch rename all controllers"
+#~ msgstr ""
+
+#~ msgid "Improved video playback speed"
+#~ msgstr ""
+
+#~ msgid "Add filtering by region, video name etc."
+#~ msgstr ""
+
+#~ msgid "Ctrl + Left mouse button click to enter value directly"
+#~ msgstr ""
+
+#~ msgid "Cursor position will translate to the value of the slider"
+#~ msgstr ""
+
+#~ msgid "Prioritize Profile"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added a feature to match the "
+#~ "output animation with the defined "
+#~ "profiles."
+#~ msgstr ""
+
+#~ msgid "Enabled by checking Solver/Post-processing/Prioritize Profile"
+#~ msgstr ""
+
+#~ msgid "Batch rename controller"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select controllers in Controller Info to"
+#~ " rename, useful for adding prefix/suffix"
+#~ " etc."
+#~ msgstr ""
+
+#~ msgid "The change will propagate to the profiles previously created."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added a feature to use RAM to "
+#~ "speed up video playback, mostly useful"
+#~ " for legacy computers."
+#~ msgstr ""
+
+#~ msgid "Default to enabled."
+#~ msgstr ""
+
+#~ msgid "You can store a maximum of 5 videos to your memory if it allows."
+#~ msgstr ""
+
+#~ msgid "Added a solver export feature for real time use"
+#~ msgstr ""
+
+#~ msgid "Export a solver file using Solver/Export."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Import the file into the real time"
+#~ " application (WIP) for view your "
+#~ "character moving in real-time"
+#~ msgstr ""
+
+#~ msgid "FCS 24.10.01"
+#~ msgstr ""
+
+#~ msgid "Date: 2024/08/29"
+#~ msgstr ""
+
+#~ msgid "Version: 24.10.01"
+#~ msgstr ""
+
+#~ msgid "Added a language and version switcher for the manual (left bottom)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[English manual](https://zukunfcs.github.io/fcs-"
+#~ "doc/24.10/en/index.html) (draft) now available"
+#~ msgstr ""
+
+#~ msgid "Added experimental linux support"
+#~ msgstr ""
+
+#~ msgid "Added an installer for FCS"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added a feature to download ffmpeg "
+#~ "if it doesn't exist on the user"
+#~ " system."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Added a feature to automatically "
+#~ "generate profile from "
+#~ "video](https://zukunfcs.github.io/fcs-"
+#~ "doc/latest/en/012_auto_pickup.html)"
+#~ msgstr ""
+
+#~ msgid "Added UI elements and download for the new version."
+#~ msgstr ""
+
+#~ msgid "Info for upgrading from a previous version"
+#~ msgstr ""
+
+#~ msgid "You can safely open your session from 24.07."
+#~ msgstr ""
+
+#~ msgid "Installer"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Changed build method to Themida. Using"
+#~ " virtual machine and debugger together "
+#~ "with FCS is unsupported. If you "
+#~ "need to allow these for specific "
+#~ "reason please contact us."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added installer, default installation path "
+#~ "is C:\\FCS. Please ensure the program"
+#~ " has write access to the folder."
+#~ msgstr ""
+
+#~ msgid "FFMPEG"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Pull ffmpeg directly from "
+#~ "[github](https://github.com/BtbN/FFmpeg-Builds/) if "
+#~ "it doesn't exist in the user "
+#~ "system."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you cannot connect to github "
+#~ "please directly install ffmpeg and add"
+#~ " it to path."
+#~ msgstr ""
+
+#~ msgid "UI"
+#~ msgstr ""
+
+#~ msgid "You can now open and view a video using double click"
+#~ msgstr ""
+
+#~ msgid "Fixed a bug where the layout is not retained"
+#~ msgstr ""
+
+#~ msgid "Fixed the initial layout of FCS when first launch in a new computer"
+#~ msgstr ""
+
+#~ msgid "Added timeline drag"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added a feature to retain user "
+#~ "interface states so it persist between"
+#~ " program launches."
+#~ msgstr ""
+
+#~ msgid "Updated japanese translations"
+#~ msgstr ""
+
+#~ msgid "Added support for modifier keys"
+#~ msgstr ""
+
+#~ msgid "Added support for shortcut keys"
+#~ msgstr ""
+
+#~ msgid "Save profile"
+#~ msgstr ""
+
+#~ msgid "Open Profile from video"
+#~ msgstr ""
+
+#~ msgid "Send value from Editor to Maya (To Maya)"
+#~ msgstr ""
+
+#~ msgid "Receive controller value from Maya (From Maya)"
+#~ msgstr ""
+
+#~ msgid "Change layout"
+#~ msgstr ""
+
+#~ msgid "Renamed Enforce Annotation to Prioritize Profile"
+#~ msgstr ""
+
+#~ msgid "Disabled region values are not sent from FCS to maya"
+#~ msgstr ""
+
+#~ msgid "Updater"
+#~ msgstr ""
+
+#~ msgid "Added a new feature to check for new updates"
+#~ msgstr ""
+
+#~ msgid "Update settings are as follow"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Update channel: All | Patch | None"
+#~ "   Decide what kind of updates are"
+#~ " checked for."
+#~ msgstr ""
+
+#~ msgid "Use Beta Use the unstable build."
+#~ msgstr ""
+
+#~ msgid "Linux Support"
+#~ msgstr ""
+
+#~ msgid "FCS supports Fedora 8 now, please contact us if you are interested."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Program data location is changed from"
+#~ " `$USER/.fcs/Cortado` to `$USER/.fcs/Cortado/$version`."
+#~ msgstr ""
+
+#~ msgid "FCS 25.01.05"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/02/17"
+#~ msgstr ""
+
+#~ msgid "Version: 25.01.05"
+#~ msgstr ""
+
+#~ msgid "General"
+#~ msgstr ""
+
+#~ msgid "Fixed floating point FPS is set incorrectly as int with Maya"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where batch processing "
+#~ "stops in some system when processing "
+#~ "a large amount of videos"
+#~ msgstr ""
+
+#~ msgid "Added a selected video counter in the Batch process window"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where batch applying "
+#~ "range values in Controller Info went "
+#~ "to the wrong field"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Optimized the loading procedure when "
+#~ "opening a session created in a "
+#~ "previous version of FCS"
+#~ msgstr ""
+
+#~ msgid "FCS 25.01.04"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/01/10"
+#~ msgstr ""
+
+#~ msgid "Version: 25.01.04"
+#~ msgstr ""
+
+#~ msgid "Stage: Stable"
+#~ msgstr ""
+
+#~ msgid "Fixed a bug related to assigning new controller to a session"
+#~ msgstr ""
+
+#~ msgid "FCS 25.01.03"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/01/07"
+#~ msgstr ""
+
+#~ msgid "Version: 25.01.03"
+#~ msgstr ""
+
+#~ msgid "Added indicator for right-clickable menu items"
+#~ msgstr ""
+
+#~ msgid "Fixed bug that leads to slower session loading"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed bug where Maya animation is "
+#~ "not deleted outside the current timeline"
+#~ " range"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed bug where processing video could"
+#~ " lead to crashing in some race "
+#~ "condition"
+#~ msgstr ""
+
+#~ msgid "FCS 25.01.02"
+#~ msgstr ""
+
+#~ msgid "Date: 2024/12/16"
+#~ msgstr ""
+
+#~ msgid "Version: 25.01.02"
+#~ msgstr ""
+
+#~ msgid "Stage: Preview"
+#~ msgstr ""
+
+#~ msgid "Made gallery filter case insensitive"
+#~ msgstr ""
+
+#~ msgid "Fixed reset in Editor"
+#~ msgstr ""
+
+#~ msgid "Fixed UI for batch editing in Gallery"
+#~ msgstr ""
+
+#~ msgid "Fixed Maya controller selection issue"
+#~ msgstr ""
+
+#~ msgid "Fixed videos opening to single click to double click"
+#~ msgstr ""
+
+#~ msgid "Other backend fixes"
+#~ msgstr ""
+
+#~ msgid "FCS 25.01.01"
+#~ msgstr ""
+
+#~ msgid "Date: 2024/12/01"
+#~ msgstr ""
+
+#~ msgid "Version: 25.01.01"
+#~ msgstr ""
+
+#~ msgid "！Cannot be downgraded！"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Session opened in 25.01 will not "
+#~ "competitable with previous version of "
+#~ "FCS.  As usual, please backup before "
+#~ "you upgrade your existing session."
+#~ msgstr ""
+
+#~ msgid "Added minor version in the app title bar"
+#~ msgstr ""
+
+#~ msgid "Optimized the startup process so it should now be slightly faster"
+#~ msgstr ""
+
+#~ msgid "Fixed an error that prevent the third party licenses from loading"
+#~ msgstr ""
+
+#~ msgid "Fixed a bug where the right click menu goes outside the screen"
+#~ msgstr ""
+
+#~ msgid "Removed custom animations for better performance"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added a new feature to allow "
+#~ "opening a different session even when"
+#~ " one is already open (we just "
+#~ "restart the app for you, a more"
+#~ " permanent solution is in discussion)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Improved the shortcut key handling so"
+#~ " when a key is released the "
+#~ "function will stop in the next "
+#~ "frame"
+#~ msgstr ""
+
+#~ msgid "Added command line launch options"
+#~ msgstr ""
+
+#~ msgid "--session: Open a session file (.yaml) after launch"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "--maya_command_port: Use a different Maya "
+#~ "Command Port instead of the one "
+#~ "specified in Settings"
+#~ msgstr ""
+
+#~ msgid "Added User Tag for Profile tagging"
+#~ msgstr ""
+
+#~ msgid "Added Video Rotation Support"
+#~ msgstr ""
+
+#~ msgid "Controller"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Newly added controllers will have their"
+#~ " checkboxes checked so it is easier"
+#~ " if you want to immediately assign"
+#~ " a value/region to them."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Rearrange controller is set to disabled"
+#~ " by default, you can still rearrange"
+#~ " them if you check the box "
+#~ "under Advanced/Rearrange."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Checking the box for controller is "
+#~ "now easier, you can left click on"
+#~ " the controller name."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added validation when trying to save "
+#~ "the table, you can no longer save"
+#~ " a table with null region."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added Value Set so you can change"
+#~ " the value of all checked controllers"
+#~ " at once."
+#~ msgstr ""
+
+#~ msgid "Creating Session"
+#~ msgstr ""
+
+#~ msgid "Hid the loading indicator when the task is in fact done."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added a feature to automatically fill"
+#~ " in Maya base if the workspace.mel"
+#~ " file is found nearby."
+#~ msgstr ""
+
+#~ msgid "Maya"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where not connectable "
+#~ "attributes will also be added to "
+#~ "Controller"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where the timeline is"
+#~ " not set on Maya side even when"
+#~ " Sync is set to ON."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where the timeline "
+#~ "will still be dragged around even "
+#~ "when dragging outside the timeline."
+#~ msgstr ""
+
+#~ msgid "Added a snapping flag to disable snapping"
+#~ msgstr ""
+
+#~ msgid "Videos"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Video Processing will now give you "
+#~ "a progress bar so you know much"
+#~ " longer it would take."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug when trying to open"
+#~ " a video that is invalid (file "
+#~ "missing) crashes the app"
+#~ msgstr ""
+
+#~ msgid "Added a feature that allow rotation when importing the video"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note this rotation happens dynamically, "
+#~ "so your original video file is "
+#~ "never altered and no extra disk "
+#~ "space will be taken up, but in "
+#~ "turn, it would be more demanding "
+#~ "for your local machine to decode "
+#~ "on the fly."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Changed the behaviour of opening video"
+#~ " from single click to double click"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added a feature that allows you to"
+#~ " rotate the video when you import "
+#~ "the video"
+#~ msgstr ""
+
+#~ msgid "Solver"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added a reminder if you try to "
+#~ "export a solver for FCSRT but do"
+#~ " not have a solver object yet, "
+#~ "you can train one by clicking the"
+#~ " button next to it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added a new face tracker option "
+#~ "for more robust (but less rich) "
+#~ "tracking, more oriented for real-time"
+#~ " tracker."
+#~ msgstr ""
+
+#~ msgid "Gallery"
+#~ msgstr ""
+
+#~ msgid "Added a checkbox to hide the tooltip"
+#~ msgstr ""
+
+#~ msgid "Changed the behaviour of predict to only apply to enabled region(s)"
+#~ msgstr ""
+
+#~ msgid "Added a filter support based on Tag"
+#~ msgstr ""
+
+#~ msgid "Added Confident Sort"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can now sort your profiles "
+#~ "based on how closely it matches "
+#~ "the algorithm prediction, this is useful"
+#~ " for debugging when you are trying"
+#~ " to figure out whether you mistakenly"
+#~ " created something wrong."
+#~ msgstr ""
+
+#~ msgid "Editor"
+#~ msgstr ""
+
+#~ msgid "Add User Tag support"
+#~ msgstr ""
+
+#~ msgid "You can add/remove custom tag for profile"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also add default tags that"
+#~ " will be automatically applied to "
+#~ "newly created profiles"
+#~ msgstr ""
+
+#~ msgid "Controller value in disabled region(s) will be excluded from"
+#~ msgstr ""
+
+#~ msgid "From Maya"
+#~ msgstr ""
+
+#~ msgid "To Maya"
+#~ msgstr ""
+
+#~ msgid "Predict"
+#~ msgstr ""
+
+#~ msgid "[Download FCS](https://github.com/ZukunFCS/fcs-doc/releases)"
+#~ msgstr ""
+
+#~ msgid "FCS 25.07.03"
+#~ msgstr ""
+
+#~ msgid "-Date: 2025/06/25"
+#~ msgstr ""
+
+#~ msgid "Version: 25.07.03"
+#~ msgstr ""
+
+#~ msgid "Bug fixes"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed shortcut keys triggering when "
+#~ "modifier is active (Triggering Period "
+#~ "when Ctrl + Period is pressed)"
+#~ msgstr ""
+
+#~ msgid "Fixed deleting profile leading to app crashing"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Remove distribute button in the "
+#~ "processor tab (we will release it "
+#~ "once the CLI app is complete)"
+#~ msgstr ""
+
+#~ msgid "FCS 25.07.02"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/06/16"
+#~ msgstr ""
+
+#~ msgid "Version: 25.07.02"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed Gallery Renders from Maya not "
+#~ "getting deleted when renaming a profile"
+#~ msgstr ""
+
+#~ msgid "Fixed batch processing generating scene and video even when not checked"
+#~ msgstr ""
+
+#~ msgid "Fixed certain text input field blocking keyboard shortcuts"
+#~ msgstr ""
+
+#~ msgid "Fixed the gallery display mode when switching from picture to render"
+#~ msgstr ""
+
+#~ msgid "FCS 25.07.01"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/06/09"
+#~ msgstr ""
+
+#~ msgid "Version: 25.07.01"
+#~ msgstr ""
+
+#~ msgid "New manual"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added a [new advanced "
+#~ "manual](https://zukunfcs.github.io/fcs-doc-"
+#~ "advanced/latest/en/index.html) for technical artists"
+#~ " at fcs-doc-advanced, with algorithm"
+#~ " benchmarks and other evaluations to "
+#~ "help you understand the amount of "
+#~ "effort you need to put into to "
+#~ "obtain the result you want."
+#~ msgstr ""
+
+#~ msgid "Character Preview"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you save a profile, FCS will"
+#~ " now attemp to save a screenshot "
+#~ "of the character, so you can see"
+#~ " double check your profiles without "
+#~ "Maya. You can also change the "
+#~ "display of the gallery from showing "
+#~ "the HMC image to showing the "
+#~ "character image.   This features is "
+#~ "automatically on, but requires you to"
+#~ " have the Maya camera setup "
+#~ "(otherwise it would just shows a "
+#~ "blank image). You can turn this "
+#~ "off in Settings."
+#~ msgstr ""
+
+#~ msgid "Denosing (Previously 'Smoothing')"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We renamed the feature that generates"
+#~ " more animator-friendly curves from "
+#~ "smoothing to denoising.   This more "
+#~ "accurately describes what this feature "
+#~ "is supposed to do for the "
+#~ "animators.   We also add our first "
+#~ "new, non-smoothing denoising method, "
+#~ "peak-preserving denoising.   It essentially "
+#~ "flattens the animation curve while "
+#~ "trying to preserve as much of the"
+#~ " peaks as possible.   As a part "
+#~ "of the new denosing pipeline, we "
+#~ "added a preview feature, that allows "
+#~ "you to see what an animation curve"
+#~ " could look like before and after "
+#~ "the denosing operation, and allows you"
+#~ " to quickly play around with the "
+#~ "parameters etc."
+#~ msgstr ""
+
+#~ msgid "Added Maya 2026 support"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added a new postprocessing feature: "
+#~ "Gaze-freezing, you can now automatically"
+#~ " freeze gaze animation when the eye"
+#~ " is closed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Improved security: We now sign all "
+#~ "executables (e.g., exe, dll) not just"
+#~ " the installer. This should make it"
+#~ " less likely for security software to"
+#~ " flag FCS. If your anti-virus "
+#~ "still flags us, please kindly let "
+#~ "us know."
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.09"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/05/23"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.09"
+#~ msgstr ""
+
+#~ msgid "Fixes"
+#~ msgstr ""
+
+#~ msgid "Fixed the Robust Pipeline"
+#~ msgstr ""
+
+#~ msgid "Fixed From Maya causing crashes"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.08"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/05/13"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.08"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug that create more "
+#~ "profiles during Auto Profile than "
+#~ "specified"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Prevented the app from crashing when "
+#~ "the application does not have read/write"
+#~ " access to the $HOME folder, show "
+#~ "an error instead."
+#~ msgstr ""
+
+#~ msgid "Improved app stability"
+#~ msgstr ""
+
+#~ msgid "Update"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Changed the update CDN from AWS to"
+#~ " Github. If you are not able to"
+#~ " connect to github directly, please "
+#~ "consider using a system-wise VPN "
+#~ "to download the update via the "
+#~ "application, or use a VPN in your"
+#~ " browser and download it directly "
+#~ "from [Github](https://github.com/ZukunFCS/fcs-"
+#~ "doc/releases)."
+#~ msgstr ""
+
+#~ msgid "Optimize the tooltip (hovered text)"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.07"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/04/23"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.07"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where non-HMC(head "
+#~ "mount camera) footages are processed as"
+#~ " HMC footages."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where footages encoded "
+#~ "when highly compressed video will drop"
+#~ " frames when being processed. There "
+#~ "is a very low chance of happening"
+#~ " if you ingress raw video footage "
+#~ "off your camera prior to processing "
+#~ "it with FCS. On the other hand,"
+#~ " if you process video footages "
+#~ "encoded with libx265 with very few "
+#~ "I-frames in between (high b-frames "
+#~ "ratio), there might be a chance "
+#~ "that you were affected. In which "
+#~ "case you might notice the timing "
+#~ "of the animation does not match "
+#~ "the timing of the footage (the "
+#~ "character's blink might happens faster/earlier"
+#~ " than it is in the footage). We"
+#~ " inherented this memory issues from "
+#~ "the library we used to process "
+#~ "video footages when using multiprocess. "
+#~ "Explicit multiprocessing has since been "
+#~ "disabled for footage process, leading to"
+#~ " a slightly longer processing time in"
+#~ " some systems but more accurate "
+#~ "animations. An upcoming fix in 25.07 "
+#~ "will speed up the processing."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where missing controller "
+#~ "in the Maya scene lead to other"
+#~ " following controllers to fail to be"
+#~ " sent/received."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where prioritizing profile"
+#~ " does not work when profiles are "
+#~ "very cloes to each other (within "
+#~ "the user-defined window, defaults to "
+#~ "1 second)"
+#~ msgstr ""
+
+#~ msgid "Updated Terms of Service"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.06"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/04/08"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.06"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where processing videos "
+#~ "would take longer time during process"
+#~ " spawning"
+#~ msgstr ""
+
+#~ msgid "Changed the border color of tabs"
+#~ msgstr ""
+
+#~ msgid "Removed old dlls"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.05"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/04/03"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.05"
+#~ msgstr ""
+
+#~ msgid "New features"
+#~ msgstr ""
+
+#~ msgid "Added new sort method: \"Randomized\""
+#~ msgstr ""
+
+#~ msgid "Added batch tagging for profiles"
+#~ msgstr ""
+
+#~ msgid "Added a dropdown to limit how many profiles to display at a time"
+#~ msgstr ""
+
+#~ msgid "Fixed gallery sorting order being inconsistent in some cases"
+#~ msgstr ""
+
+#~ msgid "Fixed an issue where deleting smoothing profile can crash the app"
+#~ msgstr ""
+
+#~ msgid "Fixed an issue where right click menu can stay out of screen"
+#~ msgstr ""
+
+#~ msgid "Fix rearranging controller crashes the app"
+#~ msgstr ""
+
+#~ msgid "Fix controller renaming crashes the app"
+#~ msgstr ""
+
+#~ msgid "Disallow adding empty or duplicated profile tag"
+#~ msgstr ""
+
+#~ msgid "Disallow layout with no name"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.04"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/03/27"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.04"
+#~ msgstr ""
+
+#~ msgid "Added support for Maya 2025"
+#~ msgstr ""
+
+#~ msgid "Added toggle in Editor to hide the image panel"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed an issue where exporting a "
+#~ "session would not work with Assets "
+#~ "folder"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.03"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/03/24"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.03"
+#~ msgstr ""
+
+#~ msgid "Fixed controller table bug that causes the application to crash"
+#~ msgstr ""
+
+#~ msgid "Optimized keyboard shortcut responsiveness"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Modified the text for the process "
+#~ "feature that allows the user to "
+#~ "re-process only a segment of the "
+#~ "video"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.02"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/03/19"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.02"
+#~ msgstr ""
+
+#~ msgid "Timeline"
+#~ msgstr ""
+
+#~ msgid "Added a new feature that allows processing part of the video"
+#~ msgstr ""
+
+#~ msgid "Bug Fixes"
+#~ msgstr ""
+
+#~ msgid "Fix unstable issue with timeline checkboxes"
+#~ msgstr ""
+
+#~ msgid "Fix a bug where sorting controller table would not work as intended"
+#~ msgstr ""
+
+#~ msgid "Fix a bug where shortcut input does not function"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.01"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/03/05"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.01"
+#~ msgstr ""
+
+#~ msgid "Changes"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Moved buttons from timeline to right "
+#~ "click menu (matching behaviour in Maya)"
+#~ msgstr ""
+
+#~ msgid "Shortcut Key"
+#~ msgstr ""
+
+#~ msgid "Changed the timeline shortcut keys to match the ones in Maya"
+#~ msgstr ""
+
+#~ msgid "Added looped playback support"
+#~ msgstr ""
+
+#~ msgid "Added audio playback support"
+#~ msgstr ""
+
+#~ msgid "Settings"
+#~ msgstr ""
+
+#~ msgid "Added a new feature to import user setting from a previous version"
+#~ msgstr ""
+
+#~ msgid "Added AV1 codec support for better web support"
+#~ msgstr ""
+
+#~ msgid "Added support for a new set of symbols for shortcut keys"
+#~ msgstr ""
+
+#~ msgid "Fixed a bug where long video might the process in some systems"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where batch renaming "
+#~ "controllers crashes the application when "
+#~ "there is no profile at all."
+#~ msgstr ""
+
+#~ msgid "**### Misc.**"
+#~ msgstr ""
+
+#~ msgid "These new pipelines can be edited in a later version of FCS."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We introduce two new pipelines, RP+ "
+#~ "and Robust+. They use a new facial"
+#~ " tracking algorithm developed by Zukun. "
+#~ "They are essentially upgrades over our"
+#~ " existing pipelines, they are specifically"
+#~ " designed to improve animation accuracy "
+#~ "for studio with low profiles count "
+#~ "(less than 50)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In addition, we also create a new"
+#~ " ****experimental**** feature to boost "
+#~ "accuracy for retargeting, by allowing "
+#~ "the user to create more fine-grain"
+#~ " control over the controller beyond "
+#~ "the four regions. This is for "
+#~ "advanced users who would want to "
+#~ "create very accurate, low-noise result."
+#~ " This will be completely optional. "
+#~ "The manual will be updated later "
+#~ "to provide a more thorough explanation."
+#~ msgstr ""
+
