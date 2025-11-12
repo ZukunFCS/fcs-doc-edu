@@ -2,7 +2,7 @@ import os
 import subprocess
 import yaml
 from pathlib import Path
-from shutil import rmtree, move
+from shutil import rmtree, move, copy
 import re
 # a single build step, which keeps conf.py and versions.yaml at the main branch
 # in generall we use environment variables to pass values to conf.py, see below
@@ -25,6 +25,8 @@ def build_doc(version, language, tag=None, ):
 	subprocess.run("make html", shell=True)
 
 	move('_build/html', f'pages/{version}/{language}')
+	subprocess.run("cp -r images _build/html/images", shell=True)
+
 
 
 # a move dir method because we run multiple builds and bring the html folders to a 
@@ -62,7 +64,7 @@ build_dir.mkdir(exist_ok=True, parents=True)
 subprocess.run("mv ./pages _build/html", shell=True)
 subprocess.run("git checkout main", shell=True)
 subprocess.run("cp ../src/index.html _build/html/index.html", shell=True)
-legacy_paths = [Path('_build/html/latest/jp'), Path('_build/html/latest/en')]
-for path in legacy_paths:
-	path.mkdir(exist_ok=True, parents=True)
-	subprocess.run(f"cp ../src/legacy_index.html {path}/index.html", shell=True)
+# legacy_paths = [Path('_build/html/latest/jp'), Path('_build/html/latest/en')]
+# for path in legacy_paths:
+# 	path.mkdir(exist_ok=True, parents=True)
+# 	subprocess.run(f"cp ../src/legacy_index.html {path}/index.html", shell=True)
