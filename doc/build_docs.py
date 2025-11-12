@@ -16,24 +16,11 @@ def build_doc(version, language, tag=None, ):
 	subprocess.run("git clean -fd", shell=True)  # Remove untracked files
 	subprocess.run("git fetch --all --tags", shell=True)  # Remove untracked files
 	if version == 'latest':
-		subprocess.run("git checkout main", shell=True)
+		subprocess.run("git checkout master", shell=True)
 	else:
 		subprocess.run("git checkout " + tag, shell=True)
 		for filename in ['conf.py', 'versions.yaml', '../.gitignore', 'build_docs.py']:
-			subprocess.run(f"git checkout main -- {filename}", shell=True)
-	external_link_file = Path("advanced_doc_link.rst")
-	if external_link_file.exists() and language == 'en':
-		with open(external_link_file, "r", encoding="utf-8") as f:
-			content = f.read()
-		new_content = re.sub(
-			r'(<meta http-equiv="refresh" content="0; url=https://zukunfcs\.github\.io/fcs-doc-advanced/latest/)(jp)(/index\.html"\s*/?>)',
-			r'\1en\3',
-			content,
-			flags=re.IGNORECASE
-		)
-		if content != new_content:
-			with open(external_link_file, "w", encoding="utf-8") as f:
-				f.write(new_content)
+			subprocess.run(f"git checkout master -- {filename}", shell=True)
 	os.environ['SPHINXOPTS'] = "-D language='{}'".format(language)
 	subprocess.run("make html", shell=True)
 
@@ -45,7 +32,7 @@ def build_doc(version, language, tag=None, ):
 
 # to separate a single local build from all builds we have a flag, see conf.py
 os.environ["build_all_docs"] = str(True)
-os.environ["pages_root"] = "https://zukunfcs.github.io/fcs-doc" 
+os.environ["pages_root"] = "https://zukunfcs.github.io/fcs-doc-edu" 
 
 # manually the main branch build in the current supported languages
 if Path("./pages").exists():
